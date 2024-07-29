@@ -1,0 +1,63 @@
+{
+"ontologies": [
+    {
+        "id": "ccf",
+        "preferredPrefix": "CCF",
+        "title": "Human Reference Atlas Common Coordinate Framework Ontology",
+        "is_foundry": false,
+        "uri": "https://cdn.humanatlas.io/digital-objects/vocab/ccf/latest/graph.ttl",
+        "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+        "definition_property": [
+            "http://purl.obolibrary.org/obo/IAO_0000115"
+        ],
+        "hierarchical_property": [
+            "http://purl.obolibrary.org/obo/BFO_0000050"
+        ],
+        "synonym_property": [
+            "http://purl.org/sig/ont/fma/synonym",
+            "http://www.lungmap.net/ontologies/database#synonym",
+            "https://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+        ],
+        "preferred_root_term": [
+            "http://purl.obolibrary.org/obo/UBERON_0000955",
+            "http://purl.obolibrary.org/obo/UBERON_0000029",
+            "http://purl.obolibrary.org/obo/UBERON_0000970",
+            "http://purl.obolibrary.org/obo/UBERON_0003889",
+            "http://purl.obolibrary.org/obo/UBERON_0000948",
+            "http://purl.obolibrary.org/obo/UBERON_0002113",
+            "http://purl.obolibrary.org/obo/UBERON_0001465",
+            "http://purl.obolibrary.org/obo/UBERON_0002107",
+            "http://purl.obolibrary.org/obo/UBERON_0002048",
+            "http://purl.obolibrary.org/obo/UBERON_0000992",
+            "http://purl.obolibrary.org/obo/UBERON_0001264",
+            "http://purl.obolibrary.org/obo/UBERON_0001270",
+            "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "http://purl.obolibrary.org/obo/UBERON_0002097",
+            "http://purl.obolibrary.org/obo/UBERON_0002108",
+            "http://purl.obolibrary.org/obo/UBERON_0000059",
+            "http://purl.obolibrary.org/obo/UBERON_0002106",
+            "http://purl.obolibrary.org/obo/UBERON_0002370",
+            "http://purl.obolibrary.org/obo/UBERON_0000056",
+            "http://purl.obolibrary.org/obo/UBERON_0001255",
+            "http://purl.obolibrary.org/obo/UBERON_0000995",
+            "http://purl.obolibrary.org/obo/UBERON_0004537",
+            "http://purl.obolibrary.org/obo/UBERON_0000178",
+            "http://purl.obolibrary.org/obo/UBERON_0004536"
+        ],
+        "base_uri": [
+            "https://purl.org/ccf/"
+        ],
+        "oboSlims": false,
+        "ontology_purl": "https://cdn.humanatlas.io/digital-objects/vocab/ccf/latest/graph.ttl",
+        "description": "The Common Coordinate Framework (CCF) Ontology is an application ontology built to support the development of the Human Reference Atlas (HRA).  It unifies vocabulary for HRA construction and usage—making it possible to ingest external data sources; supporting uniform tissue sample registration that includes the spatial positioning and semantic annotations within 3D reference organs; and supporting user-formulated cross-domain queries over tissue donor properties, anatomical structures, cell types, biomarkers, and 3D space. The CCF Ontology consists of three major ontologies. The Biological Structure Ontology records anatomical structures, cell types, and biomarkers (ASCT+B) and the relationships between them.  The ASCT+B tables are authored by human experts using templated Google Sheets. The biomarkers, cell types, and anatomical structures are mapped to existing ontologies (Uberon/FMA, CL, HGNC) whenever possible.  All relationships between anatomical structures and from cell types to anatomical structures are valid Uberon and CL relationships. The Spatial Ontology defines the shape, size, location, and rotation of experimental tissue and data major anatomical structures in the 3D Reference Object Library. The Specimen Ontology captures the sex, age, and other information on donors that provided tissue data used in the construction of the HRA.",
+        "homepage": "https://hubmapconsortium.github.io/ccf/pages/ccf-ontology.html",
+        "mailing_list": "infoccf@indiana.edu"
+    },
+    {
+        "id": "hra",
+        "preferredPrefix": "HRA",
+        "ontology_purl": "https://cdn.humanatlas.io/digital-objects/collection/hra/v2.1/graph.ttl"
+    }
+]
+}
+
